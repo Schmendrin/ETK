@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETK Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ETK</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#products">Produkte</a></li>
+                <li><a href="#offers">Angebote</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Willkommen bei ETK</h2>
+            <p>Dein Online Shop für Kleinwaren.</p>
+        </section>
+
+        <section id="products">
+            <h2>Unsere Produkte</h2>
+            <div class="product-grid">
+                <!-- Beispielprodukt -->
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Produkt 1">
+                    <h3>Produkt 1</h3>
+                    <p>Beschreibung von Produkt 1</p>
+                    <p>Preis: €10,00</p>
+                    <button>In den Warenkorb</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="offers">
+            <h2>Aktuelle Angebote</h2>
+            <!-- Angebote hier einfügen -->
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ETK. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <!-- Pop-up Script -->
+    <script>
+        // JavaScript für Pop-ups hier einfügen
+    </script>
+</body>
+</html>
