@@ -1,0 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        alert("Willkommen bei ETK! Schau dir unsere aktuellen Angebote an.");
+    }, 5000); // Pop-up nach 5 Sekunden
+});
